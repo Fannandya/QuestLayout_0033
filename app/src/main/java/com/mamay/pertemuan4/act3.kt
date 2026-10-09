@@ -101,6 +101,7 @@ fun AktifitasPertama(modifier: Modifier) {
                 stringResource(id = R.string.copy),
                 modifier = Modifier
                     .align(Alignment.BottomCenter)
+                    .padding(50.dp)
         }
         }
     }

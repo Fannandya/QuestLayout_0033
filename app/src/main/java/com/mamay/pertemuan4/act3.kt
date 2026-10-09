@@ -27,8 +27,6 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import org.w3c.dom.Text
-import java.nio.file.WatchEvent
 
 @Composable
 fun AktifitasPertama(modifier: Modifier) {

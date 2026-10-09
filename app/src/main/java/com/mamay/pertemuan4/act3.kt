@@ -98,7 +98,9 @@ fun AktifitasPertama(modifier: Modifier) {
                 .fillMaxWidth()
         ){
             Text(
-                stringResource(id = R.string.copy)
+                stringResource(id = R.string.copy),
+                modifier = Modifier
+                    .align(Alignment.BottomCenter)
         }
         }
     }

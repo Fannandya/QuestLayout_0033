@@ -81,7 +81,14 @@ fun AktifitasPertama(modifier: Modifier) {
                         modifier = Modifier
                             .padding(15.dp)
                     )
-
+                    Text(
+                        stringResource(id = R.string.alamat),
+                        fontSize = 20.sp,
+                        fontFamily = FontFamily.SansSerif,
+                        color = colorResource(id = R.color.white),
+                        modifier = Modifier
+                            .padding(15.dp)
+                    )
                 }
                 }
             }

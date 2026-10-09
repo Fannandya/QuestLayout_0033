@@ -2,6 +2,7 @@ package com.mamay.pertemuan4
 
 import android.media.Image
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -62,7 +63,7 @@ fun AktifitasPertama(modifier: Modifier) {
                 val gambar = painterResource(id = R.drawable.bambang)
                 Image(
                     painter = gambar,
-                    contentScale = ContentScale.FillBounds,
+                    contentScale = ContentScale.Crop,
                     contentDescription = null,
                     modifier = Modifier
                         .size(100.dp)
@@ -87,11 +88,14 @@ fun AktifitasPertama(modifier: Modifier) {
                         fontFamily = FontFamily.SansSerif,
                         color = colorResource(id = R.color.white),
                         modifier = Modifier
-                            .padding(15.dp)
+                            .padding(10.dp)
                     )
                 }
                 }
             }
-
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+        )
         }
     }

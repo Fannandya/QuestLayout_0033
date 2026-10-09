@@ -102,6 +102,7 @@ fun AktifitasPertama(modifier: Modifier) {
                 modifier = Modifier
                     .align(Alignment.BottomCenter)
                     .padding(50.dp)
-        }
+            )
         }
     }
+}

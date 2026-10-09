@@ -49,6 +49,7 @@ fun AktifitasPertama(modifier: Modifier) {
         Spacer(
             modifier = modifier
                 .height(25.dp)
+                .padding(20.dp)
         )
         Card(
             modifier = Modifier

@@ -1,0 +1,103 @@
+# ------------------------------------------------------------------
+# Android Studio / IntelliJ
+# ------------------------------------------------------------------
+*.iml
+*.ipr
+*.iws
+.idea/
+/captures
+.navigation/
+out/
+.hprof
+
+# ------------------------------------------------------------------
+# Gradle
+# ------------------------------------------------------------------
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle-wrapper.jar
+gradle-app.setting
+.gradletasknamecache/
+
+# Modules (dokumentasi tego ada di .idea/modules.xml)
+*.mod
+*.lck
+
+# ------------------------------------------------------------------
+# Android / Build output
+# ------------------------------------------------------------------
+*.apk
+*.aab
+*.ap_
+*.aar
+*.dex
+*.class
+bin/
+gen/
+out/
+release/
+debug/
+lint/
+lint-results*.html
+lint-results*.xml
+output.json
+output-metadata.json
+*.apk.bak
+
+# ------------------------------------------------------------------
+# ProGuard / R8 / shrinking
+# ------------------------------------------------------------------
+mapping.txt
+seeds.txt
+usage.txt
+shrink-debug.apk
+output-metadata.json
+
+# ------------------------------------------------------------------
+# Keystore & signing (JANGAN pernah commit)
+# ------------------------------------------------------------------
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# ------------------------------------------------------------------
+# Konfigurasi lokal & kredensial
+# ------------------------------------------------------------------
+local.properties
+google-services.json
+google-services-info.json
+service-account*.json
+.env
+.env.*
+secrets.properties
+
+# ------------------------------------------------------------------
+# Kotlin
+# ------------------------------------------------------------------
+.kotlin/
+*.kt.bak
+*.class
+
+# ------------------------------------------------------------------
+# Test & laporan
+# ------------------------------------------------------------------
+/captures/
+*.log
+reports/
+test-results/
+coverage/
+
+# ------------------------------------------------------------------
+# OS (macOS / Windows / Linux)
+# ------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+ehthumbs.db
+*~

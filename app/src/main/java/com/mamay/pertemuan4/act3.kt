@@ -96,6 +96,9 @@ fun AktifitasPertama(modifier: Modifier) {
         Box(
             modifier = Modifier
                 .fillMaxWidth()
-        )
+        ){
+            Text(
+                stringResource(id = R.string.copy)
+        }
         }
     }

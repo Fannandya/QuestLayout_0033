@@ -39,6 +39,7 @@ fun AktifitasPertama(modifier: Modifier) {
         Text(
             stringResource(id = R.string.prodi),
             fontSize = 35.sp,
+            fontFamily = FontFamily.Cursive,
             fontWeight = FontWeight.Bold
         )
         Text(
